@@ -1,0 +1,7 @@
+.products-img {
+    background: radial-gradient(#FBFBFB, #D7D7D7);
+}
+
+section .main::-webkit-scrollbar {
+    display: none;
+}
