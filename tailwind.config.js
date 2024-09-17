@@ -4,9 +4,6 @@ module.exports = {
   theme: {
     
     extend: {
-        gridTemplateRows : {
-            "layout" : "15vh 75vh 10vh"
-        },
         backgroundColor: {
             themeMainDefault : "#1E1B4B"
         },
