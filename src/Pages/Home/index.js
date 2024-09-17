@@ -1,6 +1,5 @@
 import Layout from "../../Components/Layout"
 import { IoLocation  } from "react-icons/io5";
-import logo from '../../logo.svg'
 import pizzaImg from '../../assets/PizzaFlat.png'
 import salgadosImg from '../../assets/Salgados.png'
 import milkshakesImg from '../../assets/Milkshake.png'
