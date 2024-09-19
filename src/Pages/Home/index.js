@@ -20,7 +20,7 @@ export default function Home(){
                         Praça das Assembléias, Bairro Novo, Filadélfia - BA
                     </span>
                 </section>
-                <section className="mx-auto w-full grid grid-rows-none grid-cols-4 h-[12rem] items-center justify-items-center leading-4 bg-white rounded-md">
+                <section className="mx-auto w-full grid grid-rows-none grid-cols-4 h-[16rem] items-center justify-items-center leading-4 bg-white rounded-md">
                     <div className="flex flex-col items-center">
                         <div className="size-14 rounded-full products-img flex justify-center items-center">
                             <img className="size-12 rounded-full products-img object-scale-down" src={ pizzaImg } alt="" />

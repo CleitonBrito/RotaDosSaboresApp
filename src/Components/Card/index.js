@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 class Card extends Component {
     render(){
-        return <a href="#">
+        return <a className="cursor-pointer" href={this.props.id}>
             <div className="grid grid-cols-[5rem_auto] items-center bg-gradient-to-r to-[#E8E8E8] from-[#F3F4F6] hover:from-[#E8E8E8] drop-shadow-md shadow-red-600 transition-colors delay-100 rounded-2xl w-full min-h-16 sm:min-h-24 my-3">
                 <section className="flex justify-center">
                     <img className="size-14" src={ this.props.image } alt="" />
