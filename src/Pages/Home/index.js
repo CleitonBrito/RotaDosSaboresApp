@@ -52,9 +52,9 @@ export default function Home(){
                             <h1 className="font-bold text-xl">Pizzas</h1>
                             <span className="font-bold text-[#bbab31]">A partir de R$33,00</span>
                         </div>
-                        <Card title="Pizza de Calabresa" description="Calabresa, Tomate, Queijo e Orégano" image={pizzaImg} />
-                        <Card title="Pizza de Carne Seca" description="Carne Seca, Tomate, Queijo, Azeitonas e Orégano" image={pizzaImg} />
-                        <Card title="Pizza Mexicana" description="Calabresa, Bacon, Muçarela, Cebola e Orégano" image={pizzaImg} />
+                        <Card title="Pizza de Calabresa" description="Calabresa, Tomate, Queijo e Orégano" image={pizzaImg} link="/pizza/1" />
+                        <Card title="Pizza de Carne Seca" description="Carne Seca, Tomate, Queijo, Azeitonas e Orégano" image={pizzaImg} link="/pizza/2" />
+                        <Card title="Pizza Mexicana" description="Calabresa, Bacon, Muçarela, Cebola e Orégano" image={pizzaImg} link="/pizza/2"/>
                     </div>
                     <div>
                         <div className="flex justify-between">
