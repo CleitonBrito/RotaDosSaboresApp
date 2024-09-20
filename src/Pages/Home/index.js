@@ -10,7 +10,7 @@ import './index.css'
 export default function Home(){
     return (
         <Layout>
-            <div className="flex flex-col gap-2">
+            <div className="flex h-screen flex-col gap-2">
                 <section className="leading-3 flex w-full justify-center h-18 items-center flex-col">
                     <div className="flex gap-2 items-center">
                         <IoLocation size={18} color="red"/>
@@ -46,7 +46,7 @@ export default function Home(){
                         <span className="text-sm">Bebidas</span>
                     </div>
                 </section>
-                <section className="py-2 px-4 pb-52 bg-white rounded-md overflow-y-scroll">
+                <section className="flex flex-col py-2 px-4 pb-52 bg-white rounded-md overflow-y-scroll">
                     <div className="pb-10">
                         <div className="flex justify-between p-2 pb-0">
                             <h1 className="font-bold text-xl">Pizzas</h1>
