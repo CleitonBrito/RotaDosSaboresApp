@@ -1,6 +1,6 @@
 {
   "short_name": "Rota dos Sabores",
-  "name": "Rota dos Sabores: Sorveteria e Pizzaria",
+  "name": "Rota dos Sabores",
   "icons": [
     {
       "src": "favicon.ico",
@@ -19,7 +19,7 @@
     }
   ],
   "start_url": ".",
-  "display": "fullscreen",
+  "display": "standalone",
   "theme_color": "#FFFFFF",
   "background_color": "#1E1B4B"
 }
