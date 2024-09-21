@@ -1,0 +1,13 @@
+.layout {
+    background-image: url('../../vetor-bg.svg');
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    background-position-x: right;
+    background-size: cover;
+}
+
+@media (max-width: 350px){
+    .layout {
+        background-position-y: bottom;
+    }
+}
