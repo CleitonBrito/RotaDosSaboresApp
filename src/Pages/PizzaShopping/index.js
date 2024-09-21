@@ -53,6 +53,11 @@ export default function PizzaShopping(){
                                 </button>
                             </label>
                         </div>
+                        <div className="flex justify-between items-center p-3 px-5 mx-2 bg-[#DCDCDC] shadow font-bold rounded-[0_0_1em_1em]">
+                            <span className="text-green-600">R$ 33,00</span>
+                            <span className="text-red-700">R$ 38,00</span>
+                            <span className="text-blue-600">R$ 43,00</span>
+                        </div>
                     </section>
                     <section>
                         <div className="flex items-center justify-between px-3 bg-[#EAEAEA] shadow-[5px_5px_5px_rgb(0,0,0,0.25)] min-h-14 rounded-md">
