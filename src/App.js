@@ -1,6 +1,7 @@
 import { createBrowserRouter } from 'react-router-dom'
 import Home from './Pages/Home'
 import PizzaShopping from './Pages/PizzaShopping';
+import PizzaMake from './Pages/PizzaMake';
 
 const router = createBrowserRouter([
     {
@@ -12,6 +13,11 @@ const router = createBrowserRouter([
         name: "pizzaItem",
         path: '/pizza/:id',
         element: <PizzaShopping />
+    },
+    {
+        name: "pizzaMake",
+        path: '/pizzaMake',
+        element: <PizzaMake />
     }
 ])
 

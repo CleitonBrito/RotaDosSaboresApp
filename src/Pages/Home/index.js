@@ -21,7 +21,7 @@ export default function Home(){
                         Praça das Assembléias, Bairro Novo, Filadélfia - BA
                     </span>
                 </section>
-                <section className="mx-auto w-full grid grid-rows-none grid-cols-4 h-[16rem] items-center justify-items-center leading-4 bg-white rounded-md">
+                <section className="mx-auto w-full grid grid-rows-none grid-cols-4 h-[18rem] items-center justify-items-center leading-4 bg-white rounded-md">
                     <div className="flex flex-col items-center">
                         <div className="size-14 rounded-full products-img flex justify-center items-center">
                             <img className="size-12 rounded-full products-img object-scale-down" src={ pizzaImg } alt="" />
@@ -51,8 +51,11 @@ export default function Home(){
                     <div className="pb-10">
                         <div className="flex justify-between p-2 pb-0">
                             <h1 className="font-bold text-xl">Pizzas</h1>
-                            <span className="font-bold text-[#bbab31]">A partir de R$33,00</span>
+                            <span className="font-bold text-[#a1c312]">A partir de R$33,00</span>
                         </div>
+                        <Link to="/pizzaMake">
+                            <Card isMake={true} title="Monte sua pizza" description="Clique aqui e monte sua pizza com vários sabores." image={pizzaImg} />
+                        </Link>
                         <Link to="/pizza/1">
                             <Card title="Pizza de Calabresa" description="Calabresa, Tomate, Queijo e Orégano" image={pizzaImg} />
                         </Link>
@@ -66,7 +69,7 @@ export default function Home(){
                     <div>
                         <div className="flex justify-between">
                             <h1 className="font-bold text-xl">Salgados</h1>
-                            <span className="font-bold text-[#bbab31]">A partir de R$4,00</span>
+                            <span className="font-bold text-[#a1c312]">A partir de R$4,00</span>
                         </div>
                         <Card title="Pastel de Frango" description="Frango, Queijo e Catupiry" image={salgadosImg} />
                         <Card title="Pastel de Presunto" description="Presunto e Queijo" image={salgadosImg} />
