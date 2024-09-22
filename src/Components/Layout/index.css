@@ -8,12 +8,12 @@
 
 .layout main::after {
     content: '';
-    background: linear-gradient(rgb(235, 235, 235), rgb(220,220,220));
+    background: linear-gradient(rgba(235, 235, 235, 0.8) 30%, rgba(15,53,149));
     display: flex;
     height: 100%;
     width: 100%;
     position: absolute;
-    top: 80px;
+    top: 0px;
     z-index: -1;
 }
 

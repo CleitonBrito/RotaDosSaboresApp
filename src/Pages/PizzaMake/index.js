@@ -9,7 +9,7 @@ import pizzaImg from '../../assets/PizzaFlat.png'
 export default function PizzaShopping(){
     return (
         <Layout>
-            <div className="flex h-screen flex-col gap-2 bg-w">
+            <div className="flex h-screen flex-col gap-2">
                 <section>
                     <Card isMake={true} className="!bg-white" title="Monte sua Pizza" description="Escolha o tamanho, sabores e quantidade." image={pizzaImg} />
                 </section>
