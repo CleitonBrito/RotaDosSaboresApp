@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 class ItemCart extends Component{
 render(){
-    return <section id="card" className="flex justify-center items-center gap-2 sm:gap-4 p-4 px-3 bg-gradient-to-b from-[#f3f3f3] to-[#dadada] shadow-[inset_-2px_-3px_4px_2px_rgba(0,0,0,0.15)] rounded-xl">
+    return <section id="card" className="flex justify-center items-center gap-2 sm:gap-4 p-4 px-3 card rounded-xl">
         <img className="size-10" src={ this.props.image } alt="" />
         <div className="flex flex-col text-sm flex-1">
             <div className="flex items-center gap-x-2">

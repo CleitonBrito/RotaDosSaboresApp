@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 class Card extends Component {
     render(){
-        return <div className={"grid grid-cols-[5rem_auto] items-center bg-gradient-to-r drop-shadow-md shadow-red-600 rounded-2xl w-full min-h-16 sm:min-h-24 my-3 " + (this.props.isMake ? "to-[#06566F] from-[#2ABF2F] text-white" : "to-[#E8E8E8] from-[#F3F4F6]")}>
+        return <div className={"grid grid-cols-[5rem_auto] items-center card rounded-2xl w-full min-h-16 sm:min-h-24 my-3 " + (this.props.isMake ? "to-[#06566F] from-[#2ABF2F] text-white" : "to-[#E8E8E8] from-[#F3F4F6]")}>
             <section className="flex justify-center">
                 <img className="size-14" src={ this.props.image } alt="" />
             </section>
