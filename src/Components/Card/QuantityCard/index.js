@@ -11,13 +11,13 @@ export default function QuantityCart(){
                 <span className="font-bold text-xl">Quantidade</span>
                 <input type="hidden" name="quantidade" value={count} />
                 <div className="flex gap-2 items-center justify-center text-white">
-                    <div onClick={() => { if(count > 0) setCount(count-1) }} className="flex justify-center items-center size-9 active:opacity-80 transition-opacity bg-red-800 rounded-md cursor-pointer">
+                    <div onClick={() => { if(count > 0) setCount(count-1) }} className={"flex justify-center items-center size-9 transition-opacity bg-red-800 rounded-md " + (count === 0 ? "opacity-20" : "cursor-pointer active:opacity-80")}>
                         <RiSubtractFill />
                     </div>
                     <div className="flex justify-center items-center size-9 bg-white text-black font-bold text-2xl rounded-md">
                         { count }
                     </div>
-                    <div onClick={() => { if(count >= 0 && count < 15) setCount(count+1) }} className="flex justify-center items-center size-9 active:opacity-80 transition-opacity bg-green-800 rounded-md cursor-pointer">
+                    <div onClick={() => { if(count >= 0 && count < 15) setCount(count+1) }} className={"flex justify-center items-center size-9 transition-opacity bg-green-800 rounded-md " + (count === 15 ? "opacity-20" : "cursor-pointer active:opacity-80")}>
                         <FaPlus />
                     </div>
                 </div>

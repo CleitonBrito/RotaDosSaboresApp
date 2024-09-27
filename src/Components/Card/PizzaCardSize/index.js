@@ -20,9 +20,9 @@ function sizeChecked(e){
 
 export default function PizzaCardSize(){
     return (
-        <section className="zmt-5">
+        <section className="mt-2">
             <span className="font-bold text-xl">Tamanho</span>
-            <div className="flex justify-evenly items-center bg-[#EAEAEA] shadow-[5px_5px_5px_rgb(0,0,0,0.25)] min-h-14 rounded-md">
+            <div className="relative z-[1] flex justify-evenly items-center bg-[#EAEAEA] shadow-[5px_5px_5px_rgb(0,0,0,0.25)] min-h-14 rounded-md">
                 <label htmlFor="tamanhoP">
                     <button onClick={ sizeChecked.bind(this)} type="button" className="flex items-center font-bold text-white active:opacity-80 transition-opacity">
                         <input id="tamanhoP" name="tamanho" value="p" type="hidden" />
