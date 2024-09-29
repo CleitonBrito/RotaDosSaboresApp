@@ -1,7 +1,7 @@
 .overlay { 
     -webkit-mask: -webkit-gradient(
         linear,
-        left 45%,
+        left 20%,
         left 0%,
         from(rgba(0, 0, 0, 1)),
         to(rgba(0, 0, 0, 0))
