@@ -13,7 +13,7 @@ export default function PizzaShopping(){
                 <section>
                     <Card isMake={true} className="!bg-white" title="Monte sua Pizza" description="Escolha o tamanho, sabores e quantidade." image={pizzaImg} />
                 </section>
-                <form className="flex overflow-y-scroll z-0 px-2 pb-52 flex-col gap-5">
+                <form className="flex overflow-y-scroll z-0 px-2 pb-60 flex-col gap-5">
                     <PizzaCardSize />
                     <QuantityCart />
                     <SaboresCard title="Sabores" />

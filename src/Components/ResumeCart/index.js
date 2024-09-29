@@ -4,7 +4,7 @@ import './index.css'
 
 class ResumeCart extends Component{
     render(){
-    return <section className="overlay absolute bottom-0 flex flex-col justify-center -translate-y-6 min-h-24 w-full md:w-7/12 lg:w-6/12 xl:w-4/12 bg-gradient-to-t from-[#000]/80 backdrop-blur-[2px]">
+    return <section className="overlay fixed bottom-0 flex flex-col justify-center -translate-y-11 min-h-24 w-full md:w-7/12 lg:w-6/12 xl:w-4/12 bg-gradient-to-t from-[#000]/80 backdrop-blur-[2px]">
         <section className="flex mt-3">
             <Link to="/cart" className="relative grid grid-cols-[2fr_3fr] px-7 min-h-16 justify-center items-center w-11/12 mx-auto sm:mr-5 bg-gradient-to-r from-[#1e1b4b] to-[#131135] hover:brightness-110 hover:cursor-pointer text-white rounded-xl">
                 <div className="flex flex-col gap-0">
